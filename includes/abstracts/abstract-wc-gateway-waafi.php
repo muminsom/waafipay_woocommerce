@@ -30,7 +30,7 @@ class WC_Waafi_Payment_Gateway extends WC_Payment_Gateway
         // Configure page fields
         $this->init_settings();
 		
-		$this->testmode             =  'yes' === wc_gateway_waafipay()->settings->__get('testmode');
+	$this->testmode             =  'yes' === wc_gateway_waafipay()->settings->__get('testmode');
         $this->enabled              = wc_gateway_waafipay()->settings->__get('enabled');
         $this->title                = wc_gateway_waafipay()->settings->__get('title');
         $this->description          = wc_gateway_waafipay()->settings->__get('description');
