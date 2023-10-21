@@ -18,6 +18,8 @@ return array(
     'USD', // United States Dollar
     'SOS', // Somali Shillings
     'SLSH',  // Somali Shillings
+    'DJF', // Djiboutian Franc
+    'KES', // Kenyan Shilling	
     'ETB' // Ethiopian Birr
    );
 
